@@ -1,0 +1,38 @@
+Spam Email Classification Using Machine Learning
+
+INTRODUCTION:
+
+Spam emails are unwanted messages that cause inconvenience and security risks. This project aims to automatically classify emails as spam or legitimate using machine learning techniques.
+
+PROBLEM STATEMENT:
+
+Manual filtering of spam emails is inefficient. An automated spam detection system is required to accurately identify spam messages.
+
+DATASET DESCRIPTION:
+
+The SMS Spam Collection Dataset consists of labeled messages categorized as spam or ham. The dataset is widely used for text classification tasks.
+
+METHODOLOGY:
+
+Text preprocessing is applied to clean the data. TF-IDF is used to convert text into numerical features. The Naive Bayes algorithm is trained to classify emails.
+
+ALGORITHM USED:
+
+Naive Bayes Classifier
+TF-IDF Vectorization
+
+RESULTS:
+
+The model achieved an accuracy of approximately 96%, indicating strong classification performance.
+
+CONCLUSION:
+
+The spam email classifier effectively detects spam messages and can be applied in real-world email filtering systems.
+
+FUTURE ENHANCEMENTS:
+
+Deep Learning models
+
+Web application using Flask
+
+Real-time email filtering
